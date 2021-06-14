@@ -1,0 +1,22 @@
+{
+  "name": "splitchunks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --config=./webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^4.4.2"
+  }
+}
